@@ -1,3 +1,23 @@
-.navigation{
+.custome{
   background-color: black;
+    background-image: url('images/homepage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:beige;
+}
+
+  
+
+#navr{
+  background-color: red;
+  font-size:35px;
+  
+}
+#mainimage{
+  height: 1500px;
+  opacity: 10%;
+}
+#q{
+  font-size: 35px;
 }
