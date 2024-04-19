@@ -37,21 +37,22 @@
         <div class="col-md-2"></div>
         <div class="col-md-8">
            <div id="registration" class="rounded-3">
-                               <form>
+               <form>
+                
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username">
+                    <input type="text" class="form-control" id="username" required>
                    
                   </div>
 
                   <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Email</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
                   </div>
   
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
                 </div>
 
                 <div class="mb-3">
@@ -65,7 +66,20 @@
                   <label class="form-check-label" for="exampleCheck1">Remeber Me</label>
                 </div>
                 <button class="signn" type="button" class="btn btn-primary btn-lg">SignUp</button>
-
+                  <h1>How did you hear about us</h1>
+                <div class="form-check">
+                  
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    YearUp Staff
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Social Media
+                  </label>
+                </div>
               </form>
            
            </div>
